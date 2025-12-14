@@ -52,11 +52,10 @@ def process_data(json_path:str, csv_path:str):
         print("failed to plot", e)
 
 if __name__ == "__main__":
-    folder = os.path.join(os.getcwd(), "data_files")
+    folder = os.path.join(os.getcwd(), "data_files") 
     json_path, csv_path = file_hander(folder)
     process_data(json_path, csv_path)
 
-    # new branch added the is the new thing
+    # new branch added
 
-    def new():
-        pass
+    # Am in new branch 2 
