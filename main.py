@@ -56,6 +56,5 @@ if __name__ == "__main__":
     json_path, csv_path = file_hander(folder)
     process_data(json_path, csv_path)
 
-    # new branch added
-
-    if a == b, print a 
+  # new branch added
+    
