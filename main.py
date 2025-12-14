@@ -55,8 +55,3 @@ if __name__ == "__main__":
     folder = os.path.join(os.getcwd(), "data_files")
     json_path, csv_path = file_hander(folder)
     process_data(json_path, csv_path)
-
-    # new branch added the is the new thing
-
-    def new():
-        pass
